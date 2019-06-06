@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="myHeader">
+    <div class="container">
+        <div class="topbar">
+            <ul class="quote">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="mailto:info@winuxsoftwaresolutions.com" target="_blank" class="small">info@winuxsoftwaresolutions.com</a></li>
+                <div class="getquote"> <img src="../../assets/free-quote.png" alt="img"> </div>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <a class="navbar-brand" href="#"> <img src="../../assets/logo.png" alt="winux software solutions pvt ltd."> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" *ngFor="let menu of menus; let i = index">
+                    <a class="nav-link"> {{ menu.name }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
