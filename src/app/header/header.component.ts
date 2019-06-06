@@ -11,22 +11,29 @@ export class HeaderComponent implements OnInit {
   }
     menus: any[] = [
     {
-      "name": "Home"
+      "name": "Home",
+      "link":"home"
+    },    
+    {
+      "name": "about us",
+      "link":"about"
     },
     {
-      "name": "services"
+      "name": "services",
+      "link":"services"
     },
     {
-      "name": "portfolio"
+      "name": "portfolio",
+      "link":"portfolio"
+    },
+
+    {
+      "name": "career",
+      "link":"career"
     },
     {
-      "name": "about us"
-    },
-    {
-      "name": "career"
-    },
-    {
-      "name": "contact us"
+      "name": "contact us",
+      "link":"contact"
     }
   ];
 }

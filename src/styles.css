@@ -5,6 +5,7 @@
     --white: #fff;
     --white-shade: #f7f7f7;
     --gray: #646464;
+    --size13: 13px;
     --size14: 14px;
 }
 
@@ -37,7 +38,6 @@ ul {
 .btn-blue {
     background: var(--blue);
     color: var(--white);
-    font-size: 14px;
 }
 
 .view-more {
@@ -51,7 +51,6 @@ ul {
 }
 
 p {
-    font-size: 14px;
     line-height: 24px;
 }
 

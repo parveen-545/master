@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" *ngFor="let menu of menus; let i = index">
-                    <a class="nav-link"> {{ menu.name }}</a>
+                    <a routerLink="/{{menu.link}}" class="nav-link"> {{ menu.name }}</a>
                 </li>
             </ul>
         </div>

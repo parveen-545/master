@@ -7,6 +7,13 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SliderComponent } from './slider/slider.component';
 import { SliderModule } from 'angular-image-slider';
+import { AppRoutingModule } from './app-routing.module';
+import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { CareerComponent } from './pages/career/career.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 @NgModule({
@@ -14,12 +21,19 @@ import { SliderModule } from 'angular-image-slider';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SliderComponent
+    SliderComponent,
+    AboutComponent,
+    HomeComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    CareerComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    SliderModule
+    SliderModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
