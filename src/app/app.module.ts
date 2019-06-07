@@ -14,6 +14,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { CareerComponent } from './pages/career/career.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { InnerpageBannerComponent } from './innerpage-banner/innerpage-banner.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     ServicesComponent,
     PortfolioComponent,
     CareerComponent,
-    ContactComponent
+    ContactComponent,
+    InnerpageBannerComponent
   ],
   imports: [
     BrowserModule,

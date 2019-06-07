@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  private pageInfo:any;
+  constructor() {
+    this.pageInfo = {
+                    "img" : "../assets/banner-contact.png",
+                    "sheading": "Contact Us",
+                    "paragraph" : "We will answer you."
+                  }
+    localStorage.setItem('page',JSON.stringify(this.pageInfo));
+   }
 
   ngOnInit() {
   }

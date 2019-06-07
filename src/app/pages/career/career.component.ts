@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CareerComponent implements OnInit {
 
-  constructor() { }
+  private pageInfo:any;
+  constructor() {
+    this.pageInfo = {
+                    "img" : "../assets/banner-services.png",
+                    "sheading": "Career",
+                    "paragraph" : "We deliver smart and flexible solutions ever."
+                  }
+    localStorage.setItem('page',JSON.stringify(this.pageInfo));
+   }
 
   ngOnInit() {
   }

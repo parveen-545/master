@@ -7,8 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
 
+  private pageInfo:any;
+  constructor() {
+    this.pageInfo = {
+                    "img" : "../assets/banner-portfolio.png",
+                    "sheading": "Portfolio",
+                    "paragraph" : "We deliver smart and flexible solutions ever."
+                  }
+    localStorage.setItem('page',JSON.stringify(this.pageInfo));
+   }
+
+
+ 
   ngOnInit() {
   }
 

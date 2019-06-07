@@ -1,0 +1,12 @@
+<header>
+    <div class="carousel slide">
+        <div class="carousel-inner">
+            <div class="inner-banner" *ngFor="let image of sliderimg let i=index " [ngStyle]="{ 'background-image': 'url(' + image.img + ')'}">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4 ">{{image.sheading}}</h2>
+                    <p class="lead ">{{image.paragraph}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
