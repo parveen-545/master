@@ -1,0 +1,143 @@
+section.services {
+    padding: 80px 0 50px;
+}
+
+section .services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+section.services h4 {
+    color: var(--blue);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.service-box {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.services .card {
+    align-items: center;
+    text-align: center;
+    border: 0px;
+    margin: 25px 10px 50px;
+}
+
+.services .card img {
+    margin-bottom: 40px;
+}
+
+.services h5 {
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+section.gallery {
+    padding: 80px 0 50px;
+    background: url(../../../assets/bg-gallery.png) no-repeat;
+    background-size: cover;
+}
+
+section .gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+section.gallery h4 {
+    color: var(--blue);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.gallery h2 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+section.gallery h2:after {
+    background: var(--blue);
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    left: 0;
+    top: 40px;
+    content: "";
+    right: 0;
+    margin: 0 auto;
+}
+
+section.gallery ul {
+    display: flex;
+}
+
+section.gallery ul li {
+    margin: 0 15px;
+}
+
+ul.choose-list li {
+    border-right: 1px solid #ddd;
+}
+
+ul.choose-list li:last-child {
+    border-right: 0px solid #ddd;
+}
+
+.why-choose {
+    padding: 80px 0 50px;
+    background: var(--white-shade);
+}
+
+section.services h2 {
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.services .media {
+    align-items: center !important;
+}
+
+.services .media p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:767px) {
+    .service-box {
+        border-right: 0px solid #ddd;
+    }
+    ul.choose-list li {
+        border-right: 0px solid #ddd;
+        padding: 10px 0;
+    }
+    section.gallery ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .services .media {
+        align-items: center !important;
+        flex-direction: column;
+        text-align: center;
+    }
+    .services .media img {
+        margin-bottom: 20px;
+    }
+}
