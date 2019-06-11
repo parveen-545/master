@@ -1,0 +1,41 @@
+.services h5 {
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+ul.social {
+    display: flex;
+}
+
+ul.social li {
+    padding: 0 10px;
+    background: var(--dark);
+    margin: 5px 10px;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+ul.social li a {
+    color: var(--white);
+}
+
+ul.social li:hover {
+    color: var(--white);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    background: var(--blue);
+}
